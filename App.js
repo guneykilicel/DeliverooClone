@@ -17,7 +17,6 @@ export default function App() {
         <Stack.Navigator>
           <Stack.Screen name="Home" component={HomeScreen} />
         </Stack.Navigator>
-        <Text className="text-red-500">Home Screen</Text>
       </TailwindProvider>
       <StatusBar />
     </NavigationContainer>
